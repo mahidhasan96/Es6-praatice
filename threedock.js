@@ -1,0 +1,13 @@
+const ages = [40, 50, 80, 84];
+const ages2 = [45, 45, 85, 20];
+const ages3 = [11, 11, 12, 14];
+const allAges = ages.concat(ages2).concat(ages3);
+const allValue = [...ages, ...ages2, 7, ...ages3];
+// console.log(allValue);
+const mahid = 1000;
+const hasan = 1400;
+const jamal = 1555;
+//const maximum = Math.max(mahid, hasan, jamal);
+const tana = [4010, 5050, 654100];
+const maximum =Math.max(...tana);
+console.log(maximum);
